@@ -13,7 +13,7 @@ public class Part1
         var blueCubesRegex = new Regex(@"(\d+)\s(?=blue)");
         var greenCubesRegex = new Regex(@"(\d+)\s(?=green)");
 
-// using var sr = new StreamReader(File.OpenRead("Data\\input_short.txt"));
+//// using var sr = new StreamReader(File.OpenRead("Data\\input_short.txt"));
         using var sr = new StreamReader(File.OpenRead("Data\\input.txt"));
         var line = sr.ReadLine();
         var sum = 0;
